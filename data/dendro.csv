@@ -1,0 +1,323 @@
+id,value,color
+ 
+ .Tobacco
+ .Tobacco.other
+ .Tobacco.other.brand,3,#5784db
+ .Tobacco.flavor
+ .Tobacco.flavor.alcohol,5,#5784db
+ .Tobacco.flavor.flavor,1,#5784db
+ .Tobacco.flavor.menthol,1,#5784db
+ .Tobacco.flavor.non-menthol,1,#5784db
+ .Tobacco.design
+ .Tobacco.design.additive,2,#5784db
+ .Tobacco.chemical
+ .Tobacco.chemical.nicotine,7,#5784db
+ .Tobacco.chemical.cannabis,1,#5784db
+ .Relation
+ .Relation.relation terms
+ .Relation.relation terms.associate with,16,#f09230
+ .Relation.relation terms.more,16,#f09230
+ .Relation.relation terms.association between,9,#f09230
+ .Relation.relation terms.more likely to,8,#f09230
+ .Relation.relation terms.less,7,#f09230
+ .Relation.relation terms.relate to,7,#f09230
+ .Relation.relation terms.correlate of,5,#f09230
+ .Relation.relation terms.relationship between,5,#f09230
+ .Relation.relation terms.less likely to,4,#f09230
+ .Relation.relation terms.significantly high,4,#f09230
+ .Relation.relation terms.association of,3,#f09230
+ .Relation.relation terms.factor associate with,3,#f09230
+ .Relation.relation terms.predictor of,3,#f09230
+ .Relation.relation terms.correlate,2,#f09230
+ .Relation.relation terms.relative to,2,#f09230
+ .Relation.relation terms.higher than,1,#f09230
+ .Relation.relation terms.less than,1,#f09230
+ .Relation.relation terms.more than,1,#f09230
+ .Relation.relation terms.no differences,1,#f09230
+ .Product
+ .Product.others
+ .Product.others.smokeless tobacco,4,#c957db
+ .Product.others.smokeless,1,#c957db
+ .Product.others.snus,1,#c957db
+ .Product.electronic
+ .Product.electronic.e cigarette,7,#c957db
+ .Product.electronic.electronic nicotine delivery systems,1,#c957db
+ .Product.electronic.ends,1,#c957db
+ .Product.combustible
+ .Product.combustible.cigarette,15,#c957db
+ .Product.combustible.tobacco product,7,#c957db
+ .Product.combustible.cigar,5,#c957db
+ .Product.combustible.hookah,3,#c957db
+ .Product.combustible.combustible tobacco,1,#c957db
+ .Policy
+ .Policy.treatment
+ .Policy.treatment.intervention,16,#febbe0
+ .Policy.treatment.counseling,2,#febbe0
+ .Policy.treatment.nicotine replacement therapy,2,#febbe0
+ .Policy.treatment.medications,1,#febbe0
+ .Policy.treatment.quitlines,1,#febbe0
+ .Policy.treatment.smoking cessation treatment,1,#febbe0
+ .Policy.treatment.tobacco treatment,1,#febbe0
+ .Policy.regulatory body
+ .Policy.regulatory body.fda,1,#febbe0
+ .Policy.regulatory body.food and drug association,1,#febbe0
+ .Policy.regulation
+ .Policy.regulation.tobacco control,5,#febbe0
+ .Policy.regulation.policy,2,#febbe0
+ .Policy.regulation.cessation strategies,1,#febbe0
+ .Policy.regulation.dose,1,#febbe0
+ .Policy.regulation.enforcement,1,#febbe0
+ .Policy.regulation.regulations,1,#febbe0
+ .Policy.regulation.restrictions,1,#febbe0
+ .Policy.regulation.smoke-free,1,#febbe0
+ .Policy.redesign
+ .Policy.redesign.tobacco epidemic,2,#febbe0
+ .Policy.redesign.monitor,1,#febbe0
+ .Policy.redesign.social media,1,#febbe0
+ .Policy.redesign.tobacco advertising,1,#febbe0
+ .Policy.market policy
+ .Policy.market policy.advertisement,3,#febbe0
+ .Policy.market policy.advertising,3,#febbe0
+ .Policy.market policy.denormalizing,1,#febbe0
+ .Policy.market policy.retailer,1,#febbe0
+ .Method
+ .Method.statistics
+ .Method.statistics.association,8,#57db94
+ .Method.statistics.95 ci,7,#57db94
+ .Method.statistics.95 confidence interval,7,#57db94
+ .Method.statistics.ci,5,#57db94
+ .Method.statistics.adjust odd ratio,4,#57db94
+ .Method.statistics.aor,3,#57db94
+ .Method.statistics.odd ratio,3,#57db94
+ .Method.statistics.percent,2,#57db94
+ .Method.statistics.predictor,2,#57db94
+ .Method.statistics.averages,1,#57db94
+ .Method.statistics.frequency,1,#57db94
+ .Method.statistics.median,1,#57db94
+ .Method.statistics.n=10,1,#57db94
+ .Method.statistics.n=19,1,#57db94
+ .Method.statistics.n=3039,1,#57db94
+ .Method.statistics.n=3368,1,#57db94
+ .Method.statistics.probability,1,#57db94
+ .Method.statistics.statistically significant,1,#57db94
+ .Method.statistics.the odds of,1,#57db94
+ .Method.method
+ .Method.method.logistic regression,10,#57db94
+ .Method.method.sample,10,#57db94
+ .Method.method.nationally representative,9,#57db94
+ .Method.method.respondent,8,#57db94
+ .Method.method.survey,8,#57db94
+ .Method.method.self report,5,#57db94
+ .Method.method.cross sectional survey,4,#57db94
+ .Method.method.online survey,4,#57db94
+ .Method.method.baseline,3,#57db94
+ .Method.method.randomize,3,#57db94
+ .Method.method.at baseline,2,#57db94
+ .Method.method.confound,2,#57db94
+ .Method.method.control group,2,#57db94
+ .Method.method.longitudinal study,2,#57db94
+ .Method.method.same sex,2,#57db94
+ .Method.method.systematic review,2,#57db94
+ .Method.method.treatment group,2,#57db94
+ .Method.method.at follow-up,1,#57db94
+ .Method.method.clinical trial,1,#57db94
+ .Method.method.comparative analysis,1,#57db94
+ .Method.method.data extraction,1,#57db94
+ .Method.method.focus groups,1,#57db94
+ .Method.method.follow-up,1,#57db94
+ .Method.method.longitudinal,1,#57db94
+ .Method.method.pubmed,1,#57db94
+ .Method.method.qualitative,1,#57db94
+ .Method.method.qualitative mp,1,#57db94
+ .Method.method.questionnaires,1,#57db94
+ .Method.method.randomized controlled trial,1,#57db94
+ .Method.method.synthesis,1,#57db94
+ .Method.data
+ .Method.data.path,3,#57db94
+ .Method.data.population assessment of tobacco and health,3,#57db94
+ .Method.data.behavioral risk factor surveillance system,2,#57db94
+ .Method.data.national adult tobacco survey,2,#57db94
+ .Method.data.brfss,1,#57db94
+ .Method.data.national epidemiologic survey on alcohol and related conditions,1,#57db94
+ .Location
+ .Location.location
+ .Location.location.united states,7,#ff2600
+ .Location.location.usa,4,#ff2600
+ .Location.location.australia,2,#ff2600
+ .Location.location.california,2,#ff2600
+ .Location.location.canada,1,#ff2600
+ .Location.location.chicago,1,#ff2600
+ .Location.location.england,1,#ff2600
+ .Location.location.houston,1,#ff2600
+ .Location.location.las vegas,1,#ff2600
+ .Location.location.missouri,1,#ff2600
+ .Location.location.new zealand,1,#ff2600
+ .Location.location.ottawa,1,#ff2600
+ .Location.location.san francisco,1,#ff2600
+ .Location.location.texas,1,#ff2600
+ .Location.location.toronto,1,#ff2600
+ .Location.location.u s ,1,#ff2600
+ .Location.location.u s 3,1,#ff2600
+ .Location.location.uk,1,#ff2600
+ .Location.location.wisconsin,1,#ff2600
+ .Demographic
+ .Demographic.socioeconomic
+ .Demographic.socioeconomic.demographic,8,#ADD8E6
+ .Demographic.socioeconomic.sociodemographic,7,#ADD8E6
+ .Demographic.socioeconomic.low income,2,#ADD8E6
+ .Demographic.socioeconomic.poverty,2,#ADD8E6
+ .Demographic.socioeconomic.sociodemographic characteristic,2,#ADD8E6
+ .Demographic.socioeconomic.socioeconomic status,2,#ADD8E6
+ .Demographic.socioeconomic.married,1,#ADD8E6
+ .Demographic.socioeconomic.socioeconomically disadvantaged,1,#ADD8E6
+ .Demographic.socioeconomic.some college,1,#ADD8E6
+ .Demographic.sexual orientation
+ .Demographic.sexual orientation.bisexual,21,#ADD8E6
+ .Demographic.sexual orientation.gay,19,#ADD8E6
+ .Demographic.sexual orientation.lesbian,19,#ADD8E6
+ .Demographic.sexual orientation.heterosexual,12,#ADD8E6
+ .Demographic.sexual orientation.sexual orientation,9,#ADD8E6
+ .Demographic.sexual orientation.lgbt,7,#ADD8E6
+ .Demographic.sexual orientation.sexual minority,6,#ADD8E6
+ .Demographic.sexual orientation.lgb,2,#ADD8E6
+ .Demographic.sexual orientation.queer,2,#ADD8E6
+ .Demographic.sexual orientation.question,2,#ADD8E6
+ .Demographic.sexual orientation.same sex,2,#ADD8E6
+ .Demographic.sexual orientation.straight,2,#ADD8E6
+ .Demographic.sexual orientation.glbt,1,#ADD8E6
+ .Demographic.sexual orientation.lgbti,1,#ADD8E6
+ .Demographic.sexual orientation.lgbtq,1,#ADD8E6
+ .Demographic.sexual orientation.non-lgb,1,#ADD8E6
+ .Demographic.sexual orientation.non-lgbt,1,#ADD8E6
+ .Demographic.sexual orientation.non-lgbtq,1,#ADD8E6
+ .Demographic.race/ethnicity
+ .Demographic.race/ethnicity.minority,8,#ADD8E6
+ .Demographic.race/ethnicity.race ethnicity,4,#ADD8E6
+ .Demographic.race/ethnicity.racial ethnic,3,#ADD8E6
+ .Demographic.race/ethnicity.hispanic,2,#ADD8E6
+ .Demographic.race/ethnicity.white,2,#ADD8E6
+ .Demographic.race/ethnicity.african american,1,#ADD8E6
+ .Demographic.race/ethnicity.african americans,1,#ADD8E6
+ .Demographic.race/ethnicity.asian american,1,#ADD8E6
+ .Demographic.race/ethnicity.blacks,1,#ADD8E6
+ .Demographic.race/ethnicity.english,1,#ADD8E6
+ .Demographic.race/ethnicity.ethnic,1,#ADD8E6
+ .Demographic.race/ethnicity.ethnicity,1,#ADD8E6
+ .Demographic.race/ethnicity.latino,1,#ADD8E6
+ .Demographic.race/ethnicity.latinos,1,#ADD8E6
+ .Demographic.race/ethnicity.non-hispanic,1,#ADD8E6
+ .Demographic.race/ethnicity.non-hispanic white,1,#ADD8E6
+ .Demographic.gender identity
+ .Demographic.gender identity.transgender,13,#ADD8E6
+ .Demographic.gender identity.gender,8,#ADD8E6
+ .Demographic.gender identity.man,8,#ADD8E6
+ .Demographic.gender identity.woman,8,#ADD8E6
+ .Demographic.gender identity.gender minority,5,#ADD8E6
+ .Demographic.gender identity.sex,5,#ADD8E6
+ .Demographic.gender identity.male,4,#ADD8E6
+ .Demographic.gender identity.cisgender,2,#ADD8E6
+ .Demographic.gender identity.female,1,#ADD8E6
+ .Demographic.gender identity.female-to-male,1,#ADD8E6
+ .Demographic.gender identity.intersex,1,#ADD8E6
+ .Demographic.gender identity.male-to-female,1,#ADD8E6
+ .Demographic.gender identity.sexuality,1,#ADD8E6
+ .Demographic.age
+ .Demographic.age.adult,14,#ADD8E6
+ .Demographic.age.age,13,#ADD8E6
+ .Demographic.age.young adult,11,#ADD8E6
+ .Demographic.age.youth,5,#ADD8E6
+ .Demographic.age.student,3,#ADD8E6
+ .Demographic.age.adolescent,2,#ADD8E6
+ .Demographic.age.high school,2,#ADD8E6
+ .Demographic.age.young people,2,#ADD8E6
+ .Demographic.age.12th grade,1,#ADD8E6
+ .Demographic.age.18–25,1,#ADD8E6
+ .Demographic.age.18–29,1,#ADD8E6
+ .Demographic.age.youth mp,1,#ADD8E6
+ .Behavioral
+ .Behavioral.use status
+ .Behavioral.use status.tobacco use,13,#b9db57
+ .Behavioral.use status.smoking status,8,#b9db57
+ .Behavioral.use status.current smoking,6,#b9db57
+ .Behavioral.use status.cigarette smoking,5,#b9db57
+ .Behavioral.use status.initiation,5,#b9db57
+ .Behavioral.use status.current use,3,#b9db57
+ .Behavioral.use status.smoking behavior,3,#b9db57
+ .Behavioral.use status.smoking rate,3,#b9db57
+ .Behavioral.use status.e cigarette use,2,#b9db57
+ .Behavioral.use status.former smoker,2,#b9db57
+ .Behavioral.use status.substance use,2,#b9db57
+ .Behavioral.use status.daily smoking,1,#b9db57
+ .Behavioral.use status.never smokers,1,#b9db57
+ .Behavioral.use status.tobacco smoking,1,#b9db57
+ .Behavioral.time period
+ .Behavioral.time period.30 day,8,#b9db57
+ .Behavioral.time period.2013,4,#b9db57
+ .Behavioral.time period.12 month,3,#b9db57
+ .Behavioral.time period.2014,3,#b9db57
+ .Behavioral.time period.2017,3,#b9db57
+ .Behavioral.time period.1 year,2,#b9db57
+ .Behavioral.time period.18 year,2,#b9db57
+ .Behavioral.time period.2013 2014,2,#b9db57
+ .Behavioral.time period.2018,2,#b9db57
+ .Behavioral.time period.2019,2,#b9db57
+ .Behavioral.time period.3 month,2,#b9db57
+ .Behavioral.time period.6 month,2,#b9db57
+ .Behavioral.time period.7 day,2,#b9db57
+ .Behavioral.time period.1 34 years,1,#b9db57
+ .Behavioral.time period.1 month,1,#b9db57
+ .Behavioral.time period.1000,1,#b9db57
+ .Behavioral.time period.1092,1,#b9db57
+ .Behavioral.time period.1960,1,#b9db57
+ .Behavioral.time period.2000,1,#b9db57
+ .Behavioral.time period.2000–2001,1,#b9db57
+ .Behavioral.time period.2001,1,#b9db57
+ .Behavioral.time period.2005,1,#b9db57
+ .Behavioral.time period.2005–2050,1,#b9db57
+ .Behavioral.time period.2009,1,#b9db57
+ .Behavioral.time period.2009–2010,1,#b9db57
+ .Behavioral.time period.2010,1,#b9db57
+ .Behavioral.time period.2011–2014,1,#b9db57
+ .Behavioral.time period.2012–2013,1,#b9db57
+ .Behavioral.time period.2013–14,1,#b9db57
+ .Behavioral.time period.2013–2016,1,#b9db57
+ .Behavioral.time period.2015,1,#b9db57
+ .Behavioral.time period.2017–2018,1,#b9db57
+ .Behavioral.time period.2050,1,#b9db57
+ .Behavioral.time period.2210,1,#b9db57
+ .Behavioral.time period.2384,1,#b9db57
+ .Behavioral.time period.26 years,1,#b9db57
+ .Behavioral.time period.3–6 months,1,#b9db57
+ .Behavioral.time period.3 66 years,1,#b9db57
+ .Behavioral.time period.8 weeks,1,#b9db57
+ .Behavioral.time period.past month,1,#b9db57
+ .Behavioral.time period.≥16 years,1,#b9db57
+ .Behavioral.prevalence
+ .Behavioral.prevalence.prevalence,12,#b9db57
+ .Behavioral.prevalence.rate,9,#b9db57
+ .Behavioral.prevalence.smoke prevalence,7,#b9db57
+ .Behavioral.prevalence.overall prevalence,1,#b9db57
+ .Behavioral.perception/belief
+ .Behavioral.perception/belief.risk,14,#b9db57
+ .Behavioral.perception/belief.addiction,1,#b9db57
+ .Behavioral.perception/belief.appeal,1,#b9db57
+ .Behavioral.perception/belief.burden,1,#b9db57
+ .Behavioral.perception/belief.tobacco dependence,1,#b9db57
+ .Behavioral.health/disease
+ .Behavioral.health/disease.cancer,2,#b9db57
+ .Behavioral.health/disease.lung cancer,2,#b9db57
+ .Behavioral.health/disease.mortality,2,#b9db57
+ .Behavioral.health/disease.cardiovascular disease,1,#b9db57
+ .Behavioral.health/disease.chronic obstructive pulmonary disease,1,#b9db57
+ .Behavioral.health/disease.heart disease,1,#b9db57
+ .Behavioral.exposure
+ .Behavioral.exposure.exposure,5,#b9db57
+ .Behavioral.cessation
+ .Behavioral.cessation.smoke cessation,11,#b9db57
+ .Behavioral.cessation.cessation,8,#b9db57
+ .Behavioral.cessation.quit attempt,4,#b9db57
+ .Behavioral.cessation.quit,3,#b9db57
+ .Behavioral.cessation.quit rate,3,#b9db57
+ .Behavioral.cessation.abstinence,2,#b9db57
+ .Behavioral.cessation.relapse,2,#b9db57
+ .Behavioral.cessation.advice to quit,1,#b9db57
