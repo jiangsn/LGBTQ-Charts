@@ -12,7 +12,7 @@
     <script>
 
 
-        d3.json("https://raw.githubusercontent.com/jiangsn/LGBTQ-Charts/main/data/bar.json").then(function (data) {
+        d3.json("data/bar.json").then(function (data) {
 
             root = d3.hierarchy(data)
                 .sum(d => d.value)
@@ -20,7 +20,7 @@
                 .eachAfter(d => d.index = d.parent ? d.parent.index = d.parent.index + 1 || 0 : 0)
 
 
-            margin = ({ top: 30, right: 30, bottom: 0, left: 200 });
+            margin = ({ top: 120, right: 300, bottom: 0, left: 200 });
             barStep = 17;
             barPadding = 3 / barStep;
             duration = 300;
@@ -38,6 +38,48 @@
                 .attr("width", width)
                 .attr("height", height);
 
+            svg.append("text")
+                .attr("x", width / 2)
+                .attr("y", (30))
+                .attr("text-anchor", "middle")
+                .style("font", "22px sans-serif")
+                .style("color", "#aaaaaa")
+                .text("Frequency of Named Entities in Abstracts");
+
+            svg.append("text")
+                .attr("x", margin.left)
+                .attr("y", (60))
+                .attr("text-anchor", "left")
+                .style("font", "14px sans-serif")
+                .style("fill", "#888888")
+                .attr("dy", "0em")
+                .text("The chart below shows the frequency of named entities in the abstracts. Bars are colored by the major category. The chart is interactive.");
+
+            svg.append("text")
+                .attr("x", margin.left)
+                .attr("y", (60))
+                .attr("text-anchor", "left")
+                .style("font", "14px sans-serif")
+                .style("fill", "#888888")
+                .attr("dy", "1em")
+                .text("Click on a bar to drill down into the named entities in that sub-category. Click on the background to go back up.");
+
+            color = d3.scaleOrdinal([true, false], ["steelblue", "#aaa"]);
+            // fill = d3.scaleOrdinal(
+            //     ['Demographic', 'Behavioral', 'Method', 'Tobacco', 'Policy', 'Relation', 'Product', 'Location'],
+            //     ['#ADD8E6', '#b9db57', '#57db94', '#5784db', '#ffffe0', '#62d835', '#c957db', '#ff2600']
+            // );
+            fill = {
+                'Demographic': '#ADD8E6', 'Behavioral': '#b9db57', 'Method': '#57db94', 'Tobacco': '#5784db',
+                'Policy': '#ffbbe0', 'Relation': '#f19322', 'Product': '#c957db', 'Location': '#ff2600'
+            };
+
+            var cnt = 0;
+            for (var i in fill) {
+                svg.append("rect").attr("x", 994).attr("y", 144 + 20 * cnt).attr("width", 10).attr("height", 10).style("fill", fill[i]);
+                svg.append("text").attr("x", 1010).attr("y", 150 + 20 * cnt).text(i).attr("alignment-baseline", "middle").attr("font-family", "Segoe UI");
+                cnt++;
+            }
 
 
             x = d3.scaleLinear().range([margin.left, width - margin.right]).domain([0, root.value]);
@@ -56,15 +98,7 @@
             //     .attr("y1", margin.top)
             //     .attr("y2", height - margin.bottom))
 
-            color = d3.scaleOrdinal([true, false], ["steelblue", "#aaa"]);
-            // fill = d3.scaleOrdinal(
-            //     ['Demographic', 'Behavioral', 'Method', 'Tobacco', 'Policy', 'Relation', 'Product', 'Location'],
-            //     ['#ADD8E6', '#b9db57', '#57db94', '#5784db', '#ffffe0', '#62d835', '#c957db', '#ff2600']
-            // );
-            fill = {
-                'Demographic': '#ADD8E6', 'Behavioral': '#b9db57', 'Method': '#57db94', 'Tobacco': '#5784db',
-                'Policy': '#ffffe0', 'Relation': '#62d835', 'Product': '#c957db', 'Location': '#ff2600'
-            };
+
 
 
             svg.append("rect")
