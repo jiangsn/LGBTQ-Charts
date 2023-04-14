@@ -2,1596 +2,1057 @@
   "name": "root",
   "children": [
     {
-      "name": "cessation",
-      "label": "Behavioral",
+      "name": "Tobacco Cessation",
+      "label": "Tobacco Use Behaviors, Prevalence, and Outcomes",
       "children": [
         {
-          "name": "abstinence",
-          "value": 2,
-          "label": "Behavioral"
+          "name": "Quitting Behavior",
+          "value": 24,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "advice to quit",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "cessation",
-          "value": 8,
-          "label": "Behavioral"
-        },
-        {
-          "name": "quit",
-          "value": 3,
-          "label": "Behavioral"
-        },
-        {
-          "name": "quit attempt",
+          "name": "Quit Attempt",
           "value": 4,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "quit rate",
+          "name": "Quit Rate",
           "value": 3,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "relapse",
+          "name": "Relapse",
           "value": 2,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "smoke cessation",
-          "value": 11,
-          "label": "Behavioral"
+          "name": "Advice to Quit",
+          "value": 1,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         }
       ]
     },
     {
-      "name": "exposure",
-      "label": "Behavioral",
+      "name": "Exposure to Tobacco-Related or Anti-Tobacco Content, or Exposure to Secondhand/Thirdhand Smoking",
+      "label": "Tobacco Use Behaviors, Prevalence, and Outcomes",
       "children": [
         {
-          "name": "exposure",
+          "name": "Exposure",
           "value": 5,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         }
       ]
     },
     {
-      "name": "health/disease",
-      "label": "Behavioral",
+      "name": "Health/Disease",
+      "label": "Tobacco Use Behaviors, Prevalence, and Outcomes",
       "children": [
         {
-          "name": "cancer",
-          "value": 2,
-          "label": "Behavioral"
+          "name": "Cancer",
+          "value": 4,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "cardiovascular disease",
+          "name": "Cardiovascular Disease",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "chronic obstructive pulmonary disease",
+          "name": "Chronic Obstructive Pulmonary Disease",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "heart disease",
+          "name": "Heart Disease",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "lung cancer",
+          "name": "Mortality",
           "value": 2,
-          "label": "Behavioral"
-        },
-        {
-          "name": "mortality",
-          "value": 2,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         }
       ]
     },
     {
-      "name": "perception/belief",
-      "label": "Behavioral",
+      "name": "Perception/Belief",
+      "label": "Tobacco Use Behaviors, Prevalence, and Outcomes",
       "children": [
         {
-          "name": "addiction",
+          "name": "Appeal",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "appeal",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "burden",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "risk",
+          "name": "Risk",
           "value": 14,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "tobacco dependence",
-          "value": 1,
-          "label": "Behavioral"
+          "name": "Addiction",
+          "value": 2,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         }
       ]
     },
     {
-      "name": "prevalence",
-      "label": "Behavioral",
+      "name": "Tobacco Use Prevalence",
+      "label": "Tobacco Use Behaviors, Prevalence, and Outcomes",
       "children": [
         {
-          "name": "overall prevalence",
-          "value": 1,
-          "label": "Behavioral"
+          "name": "Prevalence",
+          "value": 20,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "prevalence",
-          "value": 12,
-          "label": "Behavioral"
-        },
-        {
-          "name": "rate",
+          "name": "Rate",
           "value": 9,
-          "label": "Behavioral"
-        },
-        {
-          "name": "smoke prevalence",
-          "value": 7,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         }
       ]
     },
     {
-      "name": "time period",
-      "label": "Behavioral",
+      "name": "Time Period",
+      "label": "Tobacco Use Behaviors, Prevalence, and Outcomes",
       "children": [
-        {
-          "name": "1.34 years",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "1 month",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "1 year",
-          "value": 2,
-          "label": "Behavioral"
-        },
-        {
-          "name": "1000",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "1092",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "12 month",
-          "value": 3,
-          "label": "Behavioral"
-        },
-        {
-          "name": "18 year",
-          "value": 2,
-          "label": "Behavioral"
-        },
         {
           "name": "1960",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
           "name": "2000",
           "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "2000–2001",
-          "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
           "name": "2001",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
           "name": "2005",
           "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "2005–2050",
-          "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
           "name": "2009",
           "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "2009–2010",
-          "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
           "name": "2010",
           "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "2011–2014",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "2012–2013",
-          "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
           "name": "2013",
           "value": 4,
-          "label": "Behavioral"
-        },
-        {
-          "name": "2013–14",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "2013 2014",
-          "value": 2,
-          "label": "Behavioral"
-        },
-        {
-          "name": "2013–2016",
-          "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
           "name": "2014",
           "value": 3,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
           "name": "2015",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
           "name": "2017",
           "value": 3,
-          "label": "Behavioral"
-        },
-        {
-          "name": "2017–2018",
-          "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
           "name": "2018",
           "value": 2,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
           "name": "2019",
           "value": 2,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "2050",
+          "name": "2000-2001",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "2210",
+          "name": "2005-2050",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "2384",
+          "name": "2009-2010",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "26 years",
+          "name": "2011-2014",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "3–6 months",
+          "name": "2012-2013",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "3.66 years",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "3 month",
+          "name": "2013 2014",
           "value": 2,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "30 day",
+          "name": "2013-14",
+          "value": 1,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "2013-2016",
+          "value": 1,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "2017-2018",
+          "value": 1,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "7 Day",
+          "value": 2,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "30 Day",
           "value": 8,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "6 month",
+          "name": "8 Weeks",
+          "value": 1,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "Past Month",
+          "value": 1,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "1 Month",
+          "value": 1,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "3 Month",
           "value": 2,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "7 day",
+          "name": "3-6 Months",
+          "value": 1,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "6 Month",
           "value": 2,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "8 weeks",
-          "value": 1,
-          "label": "Behavioral"
+          "name": "12 Month",
+          "value": 3,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "past month",
-          "value": 1,
-          "label": "Behavioral"
+          "name": "1 Year",
+          "value": 2,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "≥16 years",
+          "name": "1.34 Years",
           "value": 1,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "3.66 Years",
+          "value": 1,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         }
       ]
     },
     {
-      "name": "use status",
-      "label": "Behavioral",
+      "name": "Tobacco Use Status",
+      "label": "Tobacco Use Behaviors, Prevalence, and Outcomes",
       "children": [
         {
-          "name": "cigarette smoking",
+          "name": "Cigarette Smoking",
+          "value": 28,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "E-cigarette Use",
+          "value": 2,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "Never Smokers",
+          "value": 1,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "Current Use of Any Tobacco Product",
+          "value": 3,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
+        },
+        {
+          "name": "Initiation of Any Tobacco Products",
           "value": 5,
-          "label": "Behavioral"
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
-          "name": "current smoking",
-          "value": 6,
-          "label": "Behavioral"
-        },
-        {
-          "name": "current use",
-          "value": 3,
-          "label": "Behavioral"
-        },
-        {
-          "name": "daily smoking",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "e cigarette use",
-          "value": 2,
-          "label": "Behavioral"
-        },
-        {
-          "name": "former smoker",
-          "value": 2,
-          "label": "Behavioral"
-        },
-        {
-          "name": "initiation",
-          "value": 5,
-          "label": "Behavioral"
-        },
-        {
-          "name": "never smokers",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "smoking behavior",
-          "value": 3,
-          "label": "Behavioral"
-        },
-        {
-          "name": "smoking rate",
-          "value": 3,
-          "label": "Behavioral"
-        },
-        {
-          "name": "smoking status",
-          "value": 8,
-          "label": "Behavioral"
-        },
-        {
-          "name": "substance use",
-          "value": 2,
-          "label": "Behavioral"
-        },
-        {
-          "name": "tobacco smoking",
-          "value": 1,
-          "label": "Behavioral"
-        },
-        {
-          "name": "tobacco use",
-          "value": 13,
-          "label": "Behavioral"
+          "name": "Substance Use",
+          "value": 16,
+          "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         }
       ]
     },
     {
-      "name": "age",
-      "label": "Demographic",
+      "name": "Age Groups",
+      "label": "Population Characteristics",
       "children": [
         {
-          "name": "12th grade",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "18–25",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "18–29",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "adolescent",
-          "value": 2,
-          "label": "Demographic"
-        },
-        {
-          "name": "adult",
-          "value": 14,
-          "label": "Demographic"
-        },
-        {
-          "name": "age",
+          "name": "Age",
           "value": 13,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "high school",
+          "name": "12th Grade",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "High School",
           "value": 2,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "student",
+          "name": "Student",
           "value": 3,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "young adult",
+          "name": "≥16 Years",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "18 Year",
+          "value": 2,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "26 Years",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "18-25",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "18-29",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Adolescent",
+          "value": 7,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Young Adult",
           "value": 11,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "young people",
+          "name": "Adolecents and Young Adults (AYA) ",
           "value": 2,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "youth",
-          "value": 5,
-          "label": "Demographic"
-        },
-        {
-          "name": "youth.mp",
-          "value": 1,
-          "label": "Demographic"
+          "name": "Adult",
+          "value": 14,
+          "label": "Population Characteristics"
         }
       ]
     },
     {
-      "name": "gender identity",
-      "label": "Demographic",
+      "name": "Sex",
+      "label": "Population Characteristics",
       "children": [
         {
-          "name": "cisgender",
-          "value": 2,
-          "label": "Demographic"
-        },
-        {
-          "name": "female",
+          "name": "Female",
           "value": 1,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "female-to-male",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "gender",
-          "value": 8,
-          "label": "Demographic"
-        },
-        {
-          "name": "gender minority",
-          "value": 5,
-          "label": "Demographic"
-        },
-        {
-          "name": "intersex",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "male",
+          "name": "Male",
           "value": 4,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "male-to-female",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "man",
+          "name": "Woman",
           "value": 8,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "sex",
+          "name": "Man",
+          "value": 8,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Sex",
           "value": 5,
-          "label": "Demographic"
+          "label": "Population Characteristics"
+        }
+      ]
+    },
+    {
+      "name": "Sexual and Gender Minority Populations",
+      "label": "Population Characteristics",
+      "children": [
+        {
+          "name": "Gender",
+          "value": 8,
+          "label": "Population Characteristics"
         },
         {
-          "name": "sexuality",
+          "name": "Intersex",
           "value": 1,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "transgender",
+          "name": "Transgender Individuals",
           "value": 13,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "woman",
-          "value": 8,
-          "label": "Demographic"
-        }
-      ]
-    },
-    {
-      "name": "race/ethnicity",
-      "label": "Demographic",
-      "children": [
-        {
-          "name": "african american",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "african americans",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "asian american",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "blacks",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "english",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "ethnic",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "ethnicity",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "hispanic",
+          "name": "Cisgender Individuals",
           "value": 2,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "latino",
+          "name": "Female-to-Male",
           "value": 1,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "latinos",
+          "name": "Male-to-Female",
           "value": 1,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "minority",
-          "value": 8,
-          "label": "Demographic"
+          "name": "Gender Minority Populations",
+          "value": 5,
+          "label": "Population Characteristics"
         },
         {
-          "name": "non-hispanic",
-          "value": 1,
-          "label": "Demographic"
+          "name": "Sexual Orientation",
+          "value": 10,
+          "label": "Population Characteristics"
         },
         {
-          "name": "non-hispanic white",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "race ethnicity",
-          "value": 4,
-          "label": "Demographic"
-        },
-        {
-          "name": "racial ethnic",
-          "value": 3,
-          "label": "Demographic"
-        },
-        {
-          "name": "white",
-          "value": 2,
-          "label": "Demographic"
-        }
-      ]
-    },
-    {
-      "name": "sexual orientation",
-      "label": "Demographic",
-      "children": [
-        {
-          "name": "bisexual",
+          "name": "Bisexual",
           "value": 21,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "gay",
+          "name": "Lesbian",
           "value": 19,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "glbt",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "heterosexual",
-          "value": 12,
-          "label": "Demographic"
-        },
-        {
-          "name": "lesbian",
+          "name": "Gay",
           "value": 19,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "lgb",
+          "name": "Same-Sex Relationship",
+          "value": 4,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Heterosexual/Straight",
+          "value": 14,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Sexual Minority Populations",
+          "value": 8,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Queer",
           "value": 2,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "lgbt",
+          "name": "Questioning",
+          "value": 2,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Sexual and Gender Minority Populations",
+          "value": 10,
+          "label": "Population Characteristics"
+        }
+      ]
+    },
+    {
+      "name": "Racial and Ethnic Minority Groups",
+      "label": "Population Characteristics",
+      "children": [
+        {
+          "name": "African American",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Black People",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Asian American",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "White Individuals",
+          "value": 3,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Hispanic/Latino Populations",
+          "value": 4,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Non-Hispanic Populations",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Minority Groups",
+          "value": 8,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "English",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Ethnicity",
+          "value": 2,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Race/Ethnicity",
           "value": 7,
-          "label": "Demographic"
+          "label": "Population Characteristics"
+        }
+      ]
+    },
+    {
+      "name": "Socioeconomic Status",
+      "label": "Population Characteristics",
+      "children": [
+        {
+          "name": "Demographics",
+          "value": 8,
+          "label": "Population Characteristics"
         },
         {
-          "name": "lgbti",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "lgbtq",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "non-lgb",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "non-lgbt",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "non-lgbtq",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "queer",
+          "name": "Socioeconomic Status",
           "value": 2,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "question",
+          "name": "Low-income Populations",
           "value": 2,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "same sex",
+          "name": "People Living in Poverty",
           "value": 2,
-          "label": "Demographic"
+          "label": "Population Characteristics"
         },
         {
-          "name": "sexual minority",
+          "name": "Socioeconomically Disadvantaged Individuals",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Education Attainment",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Marital Status",
+          "value": 1,
+          "label": "Population Characteristics"
+        },
+        {
+          "name": "Sociodemographic Factors",
+          "value": 9,
+          "label": "Population Characteristics"
+        }
+      ]
+    },
+    {
+      "name": "Countries/States/Provinces/Cities",
+      "label": "Geographic Locations",
+      "children": [
+        {
+          "name": "Australia",
+          "value": 2,
+          "label": "Geographic Locations"
+        },
+        {
+          "name": "Canada",
+          "value": 1,
+          "label": "Geographic Locations"
+        },
+        {
+          "name": "Canada-Province ",
+          "value": 1,
+          "label": "Geographic Locations"
+        },
+        {
+          "name": "Canada-City ",
+          "value": 1,
+          "label": "Geographic Locations"
+        },
+        {
+          "name": "New Zealand",
+          "value": 1,
+          "label": "Geographic Locations"
+        },
+        {
+          "name": "United Kingdom",
+          "value": 2,
+          "label": "Geographic Locations"
+        },
+        {
+          "name": "United States (US)",
+          "value": 13,
+          "label": "Geographic Locations"
+        },
+        {
+          "name": "US-State",
+          "value": 5,
+          "label": "Geographic Locations"
+        },
+        {
+          "name": "US-City",
+          "value": 4,
+          "label": "Geographic Locations"
+        }
+      ]
+    },
+    {
+      "name": "Data",
+      "label": "Method and Inference",
+      "children": [
+        {
+          "name": "Behavioral Risk Factor Surveillance System (BRFSS)",
+          "value": 3,
+          "label": "Method and Inference"
+        },
+        {
+          "name": "Population Assessment of Tobacco and Health (PATH) Study",
           "value": 6,
-          "label": "Demographic"
+          "label": "Method and Inference"
         },
         {
-          "name": "sexual orientation",
-          "value": 9,
-          "label": "Demographic"
-        },
-        {
-          "name": "straight",
+          "name": "National Adult Tobacco Survey (NATS)",
           "value": 2,
-          "label": "Demographic"
+          "label": "Method and Inference"
+        },
+        {
+          "name": "National Epidemiologic Survey on Alcohol and Related Conditions (NESARC)",
+          "value": 1,
+          "label": "Method and Inference"
         }
       ]
     },
     {
-      "name": "socioeconomic",
-      "label": "Demographic",
+      "name": "Methodology",
+      "label": "Method and Inference",
       "children": [
         {
-          "name": "demographic",
-          "value": 8,
-          "label": "Demographic"
+          "name": "Baseline",
+          "value": 5,
+          "label": "Method and Inference"
         },
         {
-          "name": "low income",
+          "name": "Follow-Up",
           "value": 2,
-          "label": "Demographic"
+          "label": "Method and Inference"
         },
         {
-          "name": "married",
+          "name": "Clinical Trial",
           "value": 1,
-          "label": "Demographic"
+          "label": "Method and Inference"
         },
         {
-          "name": "poverty",
-          "value": 2,
-          "label": "Demographic"
-        },
-        {
-          "name": "sociodemographic",
-          "value": 7,
-          "label": "Demographic"
-        },
-        {
-          "name": "sociodemographic characteristic",
-          "value": 2,
-          "label": "Demographic"
-        },
-        {
-          "name": "socioeconomic status",
-          "value": 2,
-          "label": "Demographic"
-        },
-        {
-          "name": "socioeconomically disadvantaged",
-          "value": 1,
-          "label": "Demographic"
-        },
-        {
-          "name": "some college",
-          "value": 1,
-          "label": "Demographic"
-        }
-      ]
-    },
-    {
-      "name": "location",
-      "label": "Location",
-      "children": [
-        {
-          "name": "australia",
-          "value": 2,
-          "label": "Location"
-        },
-        {
-          "name": "california",
-          "value": 2,
-          "label": "Location"
-        },
-        {
-          "name": "canada",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "chicago",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "england",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "houston",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "las vegas",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "missouri",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "new zealand",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "ottawa",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "san francisco",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "texas",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "toronto",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "u.s.",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "u.s.3",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "uk",
-          "value": 1,
-          "label": "Location"
-        },
-        {
-          "name": "united states",
-          "value": 7,
-          "label": "Location"
-        },
-        {
-          "name": "usa",
-          "value": 4,
-          "label": "Location"
-        },
-        {
-          "name": "wisconsin",
-          "value": 1,
-          "label": "Location"
-        }
-      ]
-    },
-    {
-      "name": "data",
-      "label": "Method",
-      "children": [
-        {
-          "name": "behavioral risk factor surveillance system",
-          "value": 2,
-          "label": "Method"
-        },
-        {
-          "name": "brfss",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "national adult tobacco survey",
-          "value": 2,
-          "label": "Method"
-        },
-        {
-          "name": "national epidemiologic survey on alcohol and related conditions",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "path",
+          "name": "Randomization",
           "value": 3,
-          "label": "Method"
+          "label": "Method and Inference"
         },
         {
-          "name": "population assessment of tobacco and health",
+          "name": "Experimental Research",
+          "value": 5,
+          "label": "Method and Inference"
+        },
+        {
+          "name": "Data Extraction",
+          "value": 1,
+          "label": "Method and Inference"
+        },
+        {
+          "name": "Synthesis",
+          "value": 1,
+          "label": "Method and Inference"
+        },
+        {
+          "name": "Systematic Review",
+          "value": 5,
+          "label": "Method and Inference"
+        },
+        {
+          "name": "Qualitative Research",
           "value": 3,
-          "label": "Method"
-        }
-      ]
-    },
-    {
-      "name": "method",
-      "label": "Method",
-      "children": [
-        {
-          "name": "at baseline",
-          "value": 2,
-          "label": "Method"
+          "label": "Method and Inference"
         },
         {
-          "name": "at follow-up",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "baseline",
-          "value": 3,
-          "label": "Method"
-        },
-        {
-          "name": "clinical trial",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "comparative analysis",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "confound",
-          "value": 2,
-          "label": "Method"
-        },
-        {
-          "name": "control group",
-          "value": 2,
-          "label": "Method"
-        },
-        {
-          "name": "cross sectional survey",
-          "value": 4,
-          "label": "Method"
-        },
-        {
-          "name": "data extraction",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "focus groups",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "follow-up",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "logistic regression",
+          "name": "Logistic Regression",
           "value": 10,
-          "label": "Method"
+          "label": "Method and Inference"
         },
         {
-          "name": "longitudinal",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "longitudinal study",
+          "name": "Confounder",
           "value": 2,
-          "label": "Method"
+          "label": "Method and Inference"
         },
         {
-          "name": "nationally representative",
+          "name": "Longitudinal Study",
+          "value": 3,
+          "label": "Method and Inference"
+        },
+        {
+          "name": "Nationally Representative",
           "value": 9,
-          "label": "Method"
+          "label": "Method and Inference"
         },
         {
-          "name": "online survey",
-          "value": 4,
-          "label": "Method"
+          "name": "Survey",
+          "value": 25,
+          "label": "Method and Inference"
         },
         {
-          "name": "pubmed",
-          "value": 1,
-          "label": "Method"
+          "name": "Self-Report",
+          "value": 5,
+          "label": "Method and Inference"
         },
         {
-          "name": "qualitative",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "qualitative.mp",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "questionnaires",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "randomize",
-          "value": 3,
-          "label": "Method"
-        },
-        {
-          "name": "randomized controlled trial",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "respondent",
-          "value": 8,
-          "label": "Method"
-        },
-        {
-          "name": "same sex",
-          "value": 2,
-          "label": "Method"
-        },
-        {
-          "name": "sample",
+          "name": "Sample",
           "value": 10,
-          "label": "Method"
+          "label": "Method and Inference"
+        }
+      ]
+    },
+    {
+      "name": "Statistics",
+      "label": "Method and Inference",
+      "children": [
+        {
+          "name": "Frequency/Count",
+          "value": 12,
+          "label": "Method and Inference"
         },
         {
-          "name": "self report",
-          "value": 5,
-          "label": "Method"
+          "name": "Mean/Median",
+          "value": 2,
+          "label": "Method and Inference"
         },
         {
-          "name": "survey",
+          "name": "Probability",
+          "value": 2,
+          "label": "Method and Inference"
+        },
+        {
+          "name": "Statistical Significance",
+          "value": 1,
+          "label": "Method and Inference"
+        },
+        {
+          "name": "Association",
           "value": 8,
-          "label": "Method"
+          "label": "Method and Inference"
         },
         {
-          "name": "synthesis",
-          "value": 1,
-          "label": "Method"
+          "name": "Confidence Interval (CI)",
+          "value": 19,
+          "label": "Method and Inference"
         },
         {
-          "name": "systematic review",
-          "value": 2,
-          "label": "Method"
-        },
-        {
-          "name": "treatment group",
-          "value": 2,
-          "label": "Method"
+          "name": "Odds Ratio",
+          "value": 10,
+          "label": "Method and Inference"
         }
       ]
     },
     {
-      "name": "statistics",
-      "label": "Method",
+      "name": "Marketing",
+      "label": "Policy",
       "children": [
         {
-          "name": "95 ci",
+          "name": "Advertisement",
           "value": 7,
-          "label": "Method"
+          "label": "Policy"
         },
         {
-          "name": "95 confidence interval",
+          "name": "Brand",
+          "value": 3,
+          "label": "Policy"
+        },
+        {
+          "name": "Denormalization",
+          "value": 1,
+          "label": "Policy"
+        },
+        {
+          "name": "Retail Sales",
+          "value": 1,
+          "label": "Policy"
+        },
+        {
+          "name": "Social Media",
+          "value": 1,
+          "label": "Policy"
+        }
+      ]
+    },
+    {
+      "name": "Law/Policy/Regulation",
+      "label": "Policy",
+      "children": [
+        {
+          "name": "Monitoring and Surveillance",
+          "value": 1,
+          "label": "Policy"
+        },
+        {
+          "name": "Policy/Regulation",
+          "value": 3,
+          "label": "Policy"
+        },
+        {
+          "name": "Smoke-Free Air Law",
+          "value": 1,
+          "label": "Policy"
+        },
+        {
+          "name": "Restriction",
+          "value": 1,
+          "label": "Policy"
+        },
+        {
+          "name": "Enforcement",
+          "value": 1,
+          "label": "Policy"
+        },
+        {
+          "name": "Tobacco Control",
           "value": 7,
-          "label": "Method"
-        },
-        {
-          "name": "adjust odd ratio",
-          "value": 4,
-          "label": "Method"
-        },
-        {
-          "name": "aor",
-          "value": 3,
-          "label": "Method"
-        },
-        {
-          "name": "association",
-          "value": 8,
-          "label": "Method"
-        },
-        {
-          "name": "averages",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "ci",
-          "value": 5,
-          "label": "Method"
-        },
-        {
-          "name": "frequency",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "median",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "n=10",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "n=19",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "n=3039",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "n=3368",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "odd ratio",
-          "value": 3,
-          "label": "Method"
-        },
-        {
-          "name": "percent",
-          "value": 2,
-          "label": "Method"
-        },
-        {
-          "name": "predictor",
-          "value": 2,
-          "label": "Method"
-        },
-        {
-          "name": "probability",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "statistically significant",
-          "value": 1,
-          "label": "Method"
-        },
-        {
-          "name": "the odds of",
-          "value": 1,
-          "label": "Method"
-        }
-      ]
-    },
-    {
-      "name": "market policy",
-      "label": "Policy",
-      "children": [
-        {
-          "name": "advertisement",
-          "value": 3,
           "label": "Policy"
         },
         {
-          "name": "advertising",
-          "value": 3,
-          "label": "Policy"
-        },
-        {
-          "name": "denormalizing",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "retailer",
+          "name": "Cessation Strategies",
           "value": 1,
           "label": "Policy"
         }
       ]
     },
     {
-      "name": "redesign",
+      "name": "Regulatory Body",
       "label": "Policy",
       "children": [
         {
-          "name": "monitor",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "social media",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "tobacco advertising",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "tobacco epidemic",
+          "name": "US Food and Drug Administration (FDA)",
           "value": 2,
           "label": "Policy"
         }
       ]
     },
     {
-      "name": "regulation",
+      "name": "Treatment",
       "label": "Policy",
       "children": [
         {
-          "name": "cessation strategies",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "dose",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "enforcement",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "policy",
+          "name": "Counseling",
           "value": 2,
           "label": "Policy"
         },
         {
-          "name": "regulations",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "restrictions",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "smoke-free",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "tobacco control",
-          "value": 5,
-          "label": "Policy"
-        }
-      ]
-    },
-    {
-      "name": "regulatory body",
-      "label": "Policy",
-      "children": [
-        {
-          "name": "fda",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "food and drug association",
-          "value": 1,
-          "label": "Policy"
-        }
-      ]
-    },
-    {
-      "name": "treatment",
-      "label": "Policy",
-      "children": [
-        {
-          "name": "counseling",
-          "value": 2,
-          "label": "Policy"
-        },
-        {
-          "name": "intervention",
+          "name": "Intervention",
           "value": 16,
           "label": "Policy"
         },
         {
-          "name": "medications",
+          "name": "Medication",
           "value": 1,
           "label": "Policy"
         },
         {
-          "name": "nicotine replacement therapy",
+          "name": "Cessation Treatment",
           "value": 2,
           "label": "Policy"
         },
         {
-          "name": "quitlines",
-          "value": 1,
+          "name": "Nicotine Replacement Therapy",
+          "value": 2,
           "label": "Policy"
         },
         {
-          "name": "smoking cessation treatment",
-          "value": 1,
-          "label": "Policy"
-        },
-        {
-          "name": "tobacco treatment",
+          "name": "Quitline",
           "value": 1,
           "label": "Policy"
         }
       ]
     },
     {
-      "name": "combustible",
-      "label": "Product",
+      "name": "Combustible Tobacco Products",
+      "label": "Tobacco Products",
       "children": [
         {
-          "name": "cigar",
+          "name": "Cigar",
           "value": 5,
-          "label": "Product"
+          "label": "Tobacco Products"
         },
         {
-          "name": "cigarette",
+          "name": "Cigarette",
           "value": 15,
-          "label": "Product"
+          "label": "Tobacco Products"
         },
         {
-          "name": "combustible tobacco",
+          "name": "Combustible Tobacco",
           "value": 1,
-          "label": "Product"
+          "label": "Tobacco Products"
         },
         {
-          "name": "hookah",
+          "name": "Hookah",
           "value": 3,
-          "label": "Product"
+          "label": "Tobacco Products"
         },
         {
-          "name": "tobacco product",
+          "name": "Tobacco Product",
           "value": 7,
-          "label": "Product"
+          "label": "Tobacco Products"
         }
       ]
     },
     {
-      "name": "electronic",
-      "label": "Product",
+      "name": "Non-Combustible Tobacco Products",
+      "label": "Tobacco Products",
       "children": [
         {
-          "name": "e cigarette",
-          "value": 7,
-          "label": "Product"
-        },
-        {
-          "name": "electronic nicotine delivery systems",
-          "value": 1,
-          "label": "Product"
-        },
-        {
-          "name": "ends",
-          "value": 1,
-          "label": "Product"
-        }
-      ]
-    },
-    {
-      "name": "others",
-      "label": "Product",
-      "children": [
-        {
-          "name": "smokeless",
-          "value": 1,
-          "label": "Product"
-        },
-        {
-          "name": "smokeless tobacco",
-          "value": 4,
-          "label": "Product"
-        },
-        {
-          "name": "snus",
-          "value": 1,
-          "label": "Product"
-        }
-      ]
-    },
-    {
-      "name": "relation terms",
-      "label": "Relation",
-      "children": [
-        {
-          "name": "associate with",
-          "value": 16,
-          "label": "Relation"
-        },
-        {
-          "name": "association between",
+          "name": "E-cigarette",
           "value": 9,
-          "label": "Relation"
+          "label": "Tobacco Products"
         },
         {
-          "name": "association of",
-          "value": 3,
-          "label": "Relation"
-        },
-        {
-          "name": "correlate",
-          "value": 2,
-          "label": "Relation"
-        },
-        {
-          "name": "correlate of",
+          "name": "Smokeless Tobacco",
           "value": 5,
-          "label": "Relation"
+          "label": "Tobacco Products"
         },
         {
-          "name": "factor associate with",
-          "value": 3,
-          "label": "Relation"
-        },
-        {
-          "name": "higher than",
+          "name": "Snus",
           "value": 1,
-          "label": "Relation"
+          "label": "Tobacco Products"
+        }
+      ]
+    },
+    {
+      "name": "Relation Terms",
+      "label": "Relation Statement",
+      "children": [
+        {
+          "name": "Association",
+          "value": 48,
+          "label": "Relation Statement"
         },
         {
-          "name": "less",
+          "name": "Correlation",
           "value": 7,
-          "label": "Relation"
+          "label": "Relation Statement"
         },
         {
-          "name": "less likely to",
-          "value": 4,
-          "label": "Relation"
-        },
+          "name": "Comparison",
+          "value": 45,
+          "label": "Relation Statement"
+        }
+      ]
+    },
+    {
+      "name": "Chemical",
+      "label": "Tobacco Characteristics",
+      "children": [
         {
-          "name": "less than",
-          "value": 1,
-          "label": "Relation"
-        },
-        {
-          "name": "more",
-          "value": 16,
-          "label": "Relation"
-        },
-        {
-          "name": "more likely to",
-          "value": 8,
-          "label": "Relation"
-        },
-        {
-          "name": "more than",
-          "value": 1,
-          "label": "Relation"
-        },
-        {
-          "name": "no differences",
-          "value": 1,
-          "label": "Relation"
-        },
-        {
-          "name": "predictor of",
-          "value": 3,
-          "label": "Relation"
-        },
-        {
-          "name": "relate to",
+          "name": "Nicotine",
           "value": 7,
-          "label": "Relation"
+          "label": "Tobacco Characteristics"
         },
         {
-          "name": "relationship between",
-          "value": 5,
-          "label": "Relation"
+          "name": "Dose",
+          "value": 1,
+          "label": "Tobacco Characteristics"
         },
         {
-          "name": "relative to",
+          "name": "Additive",
           "value": 2,
-          "label": "Relation"
-        },
-        {
-          "name": "significantly high",
-          "value": 4,
-          "label": "Relation"
+          "label": "Tobacco Characteristics"
         }
       ]
     },
     {
-      "name": "chemical",
-      "label": "Tobacco",
+      "name": "Flavor",
+      "label": "Tobacco Characteristics",
       "children": [
         {
-          "name": "cannabis",
-          "value": 1,
-          "label": "Tobacco"
-        },
-        {
-          "name": "nicotine",
-          "value": 7,
-          "label": "Tobacco"
-        }
-      ]
-    },
-    {
-      "name": "design",
-      "label": "Tobacco",
-      "children": [
-        {
-          "name": "additive",
-          "value": 2,
-          "label": "Tobacco"
-        }
-      ]
-    },
-    {
-      "name": "flavor",
-      "label": "Tobacco",
-      "children": [
-        {
-          "name": "alcohol",
+          "name": "Alcohol",
           "value": 5,
-          "label": "Tobacco"
+          "label": "Tobacco Characteristics"
         },
         {
-          "name": "flavor",
+          "name": "Menthol",
           "value": 1,
-          "label": "Tobacco"
+          "label": "Tobacco Characteristics"
         },
         {
-          "name": "menthol",
+          "name": "Non-menthol",
           "value": 1,
-          "label": "Tobacco"
+          "label": "Tobacco Characteristics"
         },
         {
-          "name": "non-menthol",
+          "name": "Flavor",
           "value": 1,
-          "label": "Tobacco"
-        }
-      ]
-    },
-    {
-      "name": "other",
-      "label": "Tobacco",
-      "children": [
-        {
-          "name": "brand",
-          "value": 3,
-          "label": "Tobacco"
+          "label": "Tobacco Characteristics"
         }
       ]
     }
