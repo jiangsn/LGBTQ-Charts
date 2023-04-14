@@ -69,13 +69,39 @@
                         height = +svg.attr("height"),
                         g = svg.append("g").attr("transform", "translate(20,0)");       // move right 20px.
 
+                svg.append("text")
+                        .attr("x", 300)
+                        .attr("y", (30))
+                        .attr("text-anchor", "middle")
+                        .style("font", "28px sans-serif")
+                        .style("color", "#aaaaaa")
+                        .text("Frequency of Named Entities in Abstracts");
+
+                svg.append("text")
+                        .attr("x", 45)
+                        .attr("y", (60))
+                        .attr("text-anchor", "left")
+                        .style("font", "14px sans-serif")
+                        .style("fill", "#888888")
+                        .attr("dy", "0em")
+                        .text("The chart below shows the frequency of named entities in the abstracts.");
+                svg.append("text")
+                        .attr("x", 45)
+                        .attr("y", (60))
+                        .attr("text-anchor", "left")
+                        .style("font", "14px sans-serif")
+                        .style("fill", "#888888")
+                        .attr("dy", "1em")
+                        .text("Bars are colored by the major category.");
+
+
                 // x-scale and x-axis
                 var experienceName = ["", "", "", "", "", ""];
                 var formatSkillPoints = function (d) {
                         return experienceName[d % 6];
                 }
                 var xScale = d3.scaleLinear()
-                        .domain([0, 25])
+                        .domain([0, 60])
                         .range([0, 500]);
 
                 var xAxis = d3.axisTop()
@@ -95,7 +121,8 @@
                 var stratify = d3.stratify()            // This D3 API method gives cvs file flat data array dimensions.
                         .parentId(function (d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
-                d3.csv("https://raw.githubusercontent.com/jiangsn/LGBTQ-Charts/main/data/dendro.csv", row, function (error, data) {
+                // d3.csv("skillsdata.csv", row, function (error, data) {
+                d3.csv("dendro.csv", row, function (error, data) {
                         if (error) throw error;
 
                         var root = stratify(data);
