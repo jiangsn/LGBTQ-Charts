@@ -20,7 +20,7 @@
                 .eachAfter(d => d.index = d.parent ? d.parent.index = d.parent.index + 1 || 0 : 0)
 
 
-            margin = ({ top: 120, right: 100, bottom: 0, left: 600 });
+            margin = ({ top: 120, right: 500, bottom: 0, left: 500 });
             barStep = 17;
             barPadding = 3 / barStep;
             duration = 300;
@@ -30,7 +30,7 @@
                 root.each(d => d.children && (max = Math.max(max, d.children.length)));
                 return max * barStep + margin.top + margin.bottom;
             }();
-            width = 1600;
+            width = 1500;
 
             // const svg = d3.create("svg")
             svg = d3.select("#my_dataviz")
@@ -39,7 +39,7 @@
                 .attr("height", height);
 
             svg.append("text")
-                .attr("x", width / 2)
+                .attr("x", (width + margin.left) / 2 - 100)
                 .attr("y", (30))
                 .attr("text-anchor", "middle")
                 .style("font", "22px sans-serif")
@@ -47,7 +47,7 @@
                 .text("Frequency of Named Entities in Abstracts");
 
             svg.append("text")
-                .attr("x", margin.left)
+                .attr("x", margin.left - 50)
                 .attr("y", (60))
                 .attr("text-anchor", "left")
                 .style("font", "14px sans-serif")
@@ -56,7 +56,7 @@
                 .text("The chart below shows the frequency of named entities in the abstracts. Bars are colored by the major category. The chart is interactive.");
 
             svg.append("text")
-                .attr("x", margin.left)
+                .attr("x", margin.left - 50)
                 .attr("y", (60))
                 .attr("text-anchor", "left")
                 .style("font", "14px sans-serif")
@@ -70,15 +70,15 @@
             //     ['#ADD8E6', '#b9db57', '#57db94', '#5784db', '#ffffe0', '#62d835', '#c957db', '#ff2600']
             // );
             fill = {
-                'Population Characteristics': '#ADD8E6', 'Tobacco Use Behaviors, Prevalence, and Outcomes': '#b9db57', 
-                'Method and Inference': '#57db94', 'Tobacco Characteristics': '#5784db','Policy': '#ffbbe0', 
+                'Population Characteristics': '#ADD8E6', 'Tobacco Use Behaviors, Prevalence, and Outcomes': '#b9db57',
+                'Method and Inference': '#57db94', 'Tobacco Characteristics': '#5784db', 'Policy': '#ffbbe0',
                 'Relation Statement': '#f19322', 'Tobacco Products': '#c957db', 'Geographic Locations': '#ff2600'
             };
 
             var cnt = 0;
             for (var i in fill) {
-                svg.append("rect").attr("x", 994).attr("y", 144 + 20 * cnt).attr("width", 10).attr("height", 10).style("fill", fill[i]);
-                svg.append("text").attr("x", 1010).attr("y", 150 + 20 * cnt).text(i).attr("alignment-baseline", "middle").attr("font-family", "Segoe UI");
+                svg.append("rect").attr("x", 1094).attr("y", 144 + 20 * cnt).attr("width", 10).attr("height", 10).style("fill", fill[i]);
+                svg.append("text").attr("x", 1110).attr("y", 150 + 20 * cnt).text(i).attr("alignment-baseline", "middle").attr("font-family", "Segoe UI");
                 cnt++;
             }
 
@@ -123,6 +123,7 @@
 
             // Creates a set of bars for the given data node, at the specified index.
             function bar(svg, down, d, selector) {
+                console.log(d.data.name.length);
                 const g = svg.insert("g", selector)
                     .attr("class", "enter")
                     .attr("transform", `translate(0,${margin.top + barStep * barPadding})`)
@@ -139,6 +140,7 @@
                     .attr("x", margin.left - 6)
                     .attr("y", barStep * (1 - barPadding) / 2)
                     .attr("dy", ".35em")
+                    .style("font", d => d.data.name.length > 40 ? "12px sans-serif" : "13px sans-serif")
                     .text(d => d.data.name);
 
                 bar.append("rect")
