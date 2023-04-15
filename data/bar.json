@@ -7,7 +7,7 @@
       "children": [
         {
           "name": "Quitting Behavior",
-          "value": 24,
+          "value": 16,
           "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "name": "Exposure to Tobacco-Related or Anti-Tobacco Content, or Secondhand/Thirdhand Smoking",
+      "name": "Exposure to Tobacco-Related or Anti-Tobacco Content, or Exposure to Secondhand/Thirdhand Smoking",
       "label": "Tobacco Use Behaviors, Prevalence, and Outcomes",
       "children": [
         {
@@ -49,7 +49,7 @@
       "children": [
         {
           "name": "Cancer",
-          "value": 4,
+          "value": 3,
           "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
@@ -101,7 +101,7 @@
       "children": [
         {
           "name": "Prevalence",
-          "value": 20,
+          "value": 16,
           "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
@@ -288,7 +288,7 @@
       "children": [
         {
           "name": "Cigarette Smoking",
-          "value": 28,
+          "value": 17,
           "label": "Tobacco Use Behaviors, Prevalence, and Outcomes"
         },
         {
@@ -369,7 +369,7 @@
         },
         {
           "name": "Adolescent",
-          "value": 7,
+          "value": 5,
           "label": "Population Characteristics"
         },
         {
@@ -481,12 +481,12 @@
         },
         {
           "name": "Same-Sex Relationship",
-          "value": 4,
+          "value": 2,
           "label": "Population Characteristics"
         },
         {
           "name": "Heterosexual/Straight",
-          "value": 14,
+          "value": 13,
           "label": "Population Characteristics"
         },
         {
@@ -506,7 +506,7 @@
         },
         {
           "name": "Sexual and Gender Minority Populations",
-          "value": 10,
+          "value": 9,
           "label": "Population Characteristics"
         }
       ]
@@ -537,7 +537,7 @@
         },
         {
           "name": "Hispanic/Latino Populations",
-          "value": 4,
+          "value": 3,
           "label": "Population Characteristics"
         },
         {
@@ -562,7 +562,7 @@
         },
         {
           "name": "Race/Ethnicity",
-          "value": 7,
+          "value": 6,
           "label": "Population Characteristics"
         }
       ]
@@ -608,7 +608,7 @@
         },
         {
           "name": "Sociodemographic Factors",
-          "value": 9,
+          "value": 8,
           "label": "Population Characteristics"
         }
       ]
@@ -649,7 +649,7 @@
         },
         {
           "name": "United States (US)",
-          "value": 13,
+          "value": 12,
           "label": "Geographic Locations"
         },
         {
@@ -670,12 +670,12 @@
       "children": [
         {
           "name": "Behavioral Risk Factor Surveillance System (BRFSS)",
-          "value": 3,
+          "value": 2,
           "label": "Method and Inference"
         },
         {
           "name": "Population Assessment of Tobacco and Health (PATH) Study",
-          "value": 6,
+          "value": 3,
           "label": "Method and Inference"
         },
         {
@@ -696,7 +696,7 @@
       "children": [
         {
           "name": "Baseline",
-          "value": 5,
+          "value": 4,
           "label": "Method and Inference"
         },
         {
@@ -716,7 +716,7 @@
         },
         {
           "name": "Experimental Research",
-          "value": 5,
+          "value": 4,
           "label": "Method and Inference"
         },
         {
@@ -731,7 +731,7 @@
         },
         {
           "name": "Systematic Review",
-          "value": 5,
+          "value": 2,
           "label": "Method and Inference"
         },
         {
@@ -761,7 +761,7 @@
         },
         {
           "name": "Survey",
-          "value": 25,
+          "value": 18,
           "label": "Method and Inference"
         },
         {
@@ -782,7 +782,7 @@
       "children": [
         {
           "name": "Frequency/Count",
-          "value": 12,
+          "value": 9,
           "label": "Method and Inference"
         },
         {
@@ -807,12 +807,12 @@
         },
         {
           "name": "Confidence Interval (CI)",
-          "value": 19,
+          "value": 9,
           "label": "Method and Inference"
         },
         {
           "name": "Odds Ratio",
-          "value": 10,
+          "value": 8,
           "label": "Method and Inference"
         }
       ]
@@ -823,7 +823,7 @@
       "children": [
         {
           "name": "Advertisement",
-          "value": 7,
+          "value": 4,
           "label": "Policy"
         },
         {
@@ -879,7 +879,7 @@
         },
         {
           "name": "Tobacco Control",
-          "value": 7,
+          "value": 6,
           "label": "Policy"
         },
         {
@@ -973,12 +973,12 @@
       "children": [
         {
           "name": "E-cigarette",
-          "value": 9,
+          "value": 8,
           "label": "Tobacco Products"
         },
         {
           "name": "Smokeless Tobacco",
-          "value": 5,
+          "value": 4,
           "label": "Tobacco Products"
         },
         {
@@ -994,17 +994,17 @@
       "children": [
         {
           "name": "Association",
-          "value": 48,
+          "value": 23,
           "label": "Relation Statement"
         },
         {
           "name": "Correlation",
-          "value": 7,
+          "value": 6,
           "label": "Relation Statement"
         },
         {
           "name": "Comparison",
-          "value": 45,
+          "value": 26,
           "label": "Relation Statement"
         }
       ]
