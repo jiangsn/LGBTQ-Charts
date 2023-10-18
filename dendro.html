@@ -61,7 +61,7 @@
 </head>
 
 <body>
-        <svg width="1500" height="6100"></svg>
+        <svg width="1500" height="3200"></svg>
         <script>
                 // main svg
                 var svg = d3.select("svg"),
@@ -111,7 +111,7 @@
 
                 // Setting up a way to handle the data
                 var tree = d3.cluster()                 // This D3 API method setup the Dendrogram datum position.
-                        .size([height, width - 460])    // Total width - bar chart width = Dendrogram chart width
+                        .size([height, width - 650])    // Total width - bar chart width = Dendrogram chart width
                         .separation(function separate(a, b) {
                                 return a.parent == b.parent            // 2 levels tree grouping for category
                                         || a.parent.parent == b.parent
@@ -121,11 +121,13 @@
                 var stratify = d3.stratify()            // This D3 API method gives cvs file flat data array dimensions.
                         .parentId(function (d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
-                d3.csv("https://raw.githubusercontent.com/jiangsn/LGBTQ-Charts/main/data/dendro.csv", row, function (error, data) {
+                // d3.csv("skillsdata.csv", row, function (error, data) {
+                d3.csv("dendro.csv", row, function (error, data) {
                         if (error) throw error;
 
                         var root = stratify(data);
                         tree(root);
+
 
                         // Draw every datum a line connecting to its parent.
                         var link = g.selectAll(".link")
@@ -207,19 +209,6 @@
                                 .style("stroke-dasharray", "20,1")
                                 .style("stroke", "black");
 
-                        // The moving ball
-                        /*        var ballG = svg.insert("g")
-                                        .attr("class","ballG")
-                                        .attr("transform", "translate(" + 1100 + "," + height/2 + ")");
-                                ballG.insert("circle")
-                                        .attr("class","shadow")
-                                        .style("fill","steelblue")
-                                        .attr("r", 8);
-                                ballG.insert("text")
-                                        .style("text-anchor", "middle")
-                                        .attr("dy",5)
-                                        .text("0.0");
-                        */
                         // Animation functions for mouse on and off events.
                         d3.selectAll(".node--leaf-g")
                                 .on("mouseover", handleMouseOver)
