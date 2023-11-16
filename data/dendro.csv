@@ -1,62 +1,62 @@
 id,value,color
  
 " .Tobacco Use Behaviors, Prevalence, and Outcomes"
-" .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Status"
+" .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Status",,#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Status.Cigarette Smoking","17",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Status.Substance Use","16",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Status.Initiation of Any Tobacco Products","5",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Status.Current Use of Any Tobacco Product","3",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Status.E-cigarette Use","2",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Status.Never Smokers","1",#b9db57
-" .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Prevalence"
+" .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Prevalence",,#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Prevalence.Prevalence","16",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Use Prevalence.Rate","9",#b9db57
-" .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Cessation"
+" .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Cessation",,#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Cessation.Quitting Behavior","16",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Cessation.Quit Attempt","4",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Cessation.Quit Rate","3",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Cessation.Relapse","2",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Tobacco Cessation.Advice to Quit","1",#b9db57
-" .Tobacco Use Behaviors, Prevalence, and Outcomes.Perception/Belief"
+" .Tobacco Use Behaviors, Prevalence, and Outcomes.Perception/Belief",,#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Perception/Belief.Risk","14",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Perception/Belief.Addiction","2",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Perception/Belief.Appeal","1",#b9db57
-" .Tobacco Use Behaviors, Prevalence, and Outcomes.Health/Disease"
+" .Tobacco Use Behaviors, Prevalence, and Outcomes.Health/Disease",,#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Health/Disease.Cancer","3",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Health/Disease.Mortality","2",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Health/Disease.Cardiovascular Disease","1",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Health/Disease.Chronic Obstructive Pulmonary Disease","1",#b9db57
 " .Tobacco Use Behaviors, Prevalence, and Outcomes.Health/Disease.Heart Disease","1",#b9db57
-" .Tobacco Use Behaviors, Prevalence, and Outcomes.Exposure to Tobacco-Related or Anti-Tobacco Content, or Exposure to Secondhand/Thirdhand Smoking                                        "
-" .Tobacco Use Behaviors, Prevalence, and Outcomes.Exposure to Tobacco-Related or Anti-Tobacco Content, or Exposure to Secondhand/Thirdhand Smoking                                        .Exposure","5",#b9db57
+" .Tobacco Use Behaviors, Prevalence, and Outcomes.Exposure to Tobacco-Related or Anti-Tobacco Content, or Exposure to Secondhand/Thirdhand Smoking",,#b9db57
+" .Tobacco Use Behaviors, Prevalence, and Outcomes.Exposure to Tobacco-Related or Anti-Tobacco Content, or Exposure to Secondhand/Thirdhand Smoking.Exposure","5",#b9db57
 " .Tobacco Products"
-" .Tobacco Products.Non-Combustible Tobacco Products"
+" .Tobacco Products.Non-Combustible Tobacco Products",,#c957db
 " .Tobacco Products.Non-Combustible Tobacco Products.E-cigarette","8",#c957db
 " .Tobacco Products.Non-Combustible Tobacco Products.Smokeless Tobacco","4",#c957db
 " .Tobacco Products.Non-Combustible Tobacco Products.Snus","1",#c957db
-" .Tobacco Products.Combustible Tobacco Products"
+" .Tobacco Products.Combustible Tobacco Products",,#c957db
 " .Tobacco Products.Combustible Tobacco Products.Cigarette","15",#c957db
 " .Tobacco Products.Combustible Tobacco Products.Tobacco Product","7",#c957db
 " .Tobacco Products.Combustible Tobacco Products.Cigar","5",#c957db
 " .Tobacco Products.Combustible Tobacco Products.Hookah","3",#c957db
 " .Tobacco Products.Combustible Tobacco Products.Combustible Tobacco","1",#c957db
 " .Tobacco Characteristics"
-" .Tobacco Characteristics.Flavor"
+" .Tobacco Characteristics.Flavor",,#5784db
 " .Tobacco Characteristics.Flavor.Alcohol","5",#5784db
 " .Tobacco Characteristics.Flavor.Menthol","1",#5784db
 " .Tobacco Characteristics.Flavor.Non-menthol","1",#5784db
 " .Tobacco Characteristics.Flavor.Flavor","1",#5784db
-" .Tobacco Characteristics.Chemical"
+" .Tobacco Characteristics.Chemical",,#5784db
 " .Tobacco Characteristics.Chemical.Nicotine","7",#5784db
 " .Tobacco Characteristics.Chemical.Additive","2",#5784db
 " .Tobacco Characteristics.Chemical.Dose","1",#5784db
 " .Relation Statement"
-" .Relation Statement.Relation Terms"
+" .Relation Statement.Relation Terms",,#f19322
 " .Relation Statement.Relation Terms.Comparison","26",#f19322
 " .Relation Statement.Relation Terms.Association","23",#f19322
 " .Relation Statement.Relation Terms.Correlation","6",#f19322
 " .Population Characteristics"
-" .Population Characteristics.Socioeconomic Status"
+" .Population Characteristics.Socioeconomic Status",,#ADD8E6
 " .Population Characteristics.Socioeconomic Status.Demographics","8",#ADD8E6
 " .Population Characteristics.Socioeconomic Status.Sociodemographic Factors","8",#ADD8E6
 " .Population Characteristics.Socioeconomic Status.Socioeconomic Status","2",#ADD8E6
@@ -65,7 +65,7 @@ id,value,color
 " .Population Characteristics.Socioeconomic Status.Socioeconomically Disadvantaged Individuals","1",#ADD8E6
 " .Population Characteristics.Socioeconomic Status.Education Attainment","1",#ADD8E6
 " .Population Characteristics.Socioeconomic Status.Marital Status","1",#ADD8E6
-" .Population Characteristics.Sexual and Gender Minority Populations"
+" .Population Characteristics.Sexual and Gender Minority Populations",,#ADD8E6
 " .Population Characteristics.Sexual and Gender Minority Populations.Bisexual","21",#ADD8E6
 " .Population Characteristics.Sexual and Gender Minority Populations.Lesbian","19",#ADD8E6
 " .Population Characteristics.Sexual and Gender Minority Populations.Gay","19",#ADD8E6
@@ -83,13 +83,13 @@ id,value,color
 " .Population Characteristics.Sexual and Gender Minority Populations.Intersex","1",#ADD8E6
 " .Population Characteristics.Sexual and Gender Minority Populations.Female-to-Male","1",#ADD8E6
 " .Population Characteristics.Sexual and Gender Minority Populations.Male-to-Female","1",#ADD8E6
-" .Population Characteristics.Sex"
+" .Population Characteristics.Sex",,#ADD8E6
 " .Population Characteristics.Sex.Woman","8",#ADD8E6
 " .Population Characteristics.Sex.Man","8",#ADD8E6
 " .Population Characteristics.Sex.Sex","5",#ADD8E6
 " .Population Characteristics.Sex.Male","4",#ADD8E6
 " .Population Characteristics.Sex.Female","1",#ADD8E6
-" .Population Characteristics.Racial and Ethnic Minority Groups"
+" .Population Characteristics.Racial and Ethnic Minority Groups",,#ADD8E6
 " .Population Characteristics.Racial and Ethnic Minority Groups.Minority Groups","8",#ADD8E6
 " .Population Characteristics.Racial and Ethnic Minority Groups.Race/Ethnicity","6",#ADD8E6
 " .Population Characteristics.Racial and Ethnic Minority Groups.White Individuals","3",#ADD8E6
@@ -100,7 +100,7 @@ id,value,color
 " .Population Characteristics.Racial and Ethnic Minority Groups.Asian American","1",#ADD8E6
 " .Population Characteristics.Racial and Ethnic Minority Groups.Non-Hispanic Populations","1",#ADD8E6
 " .Population Characteristics.Racial and Ethnic Minority Groups.English","1",#ADD8E6
-" .Population Characteristics.Age Groups"
+" .Population Characteristics.Age Groups",,#ADD8E6
 " .Population Characteristics.Age Groups.Adult","14",#ADD8E6
 " .Population Characteristics.Age Groups.Age","13",#ADD8E6
 " .Population Characteristics.Age Groups.Young Adult","11",#ADD8E6
@@ -115,22 +115,22 @@ id,value,color
 " .Population Characteristics.Age Groups.18-25","1",#ADD8E6
 " .Population Characteristics.Age Groups.18-29","1",#ADD8E6
 " .Policy"
-" .Policy.Treatment"
+" .Policy.Treatment",,#ffbbe0
 " .Policy.Treatment.Intervention","16",#ffbbe0
 " .Policy.Treatment.Counseling","2",#ffbbe0
 " .Policy.Treatment.Cessation Treatment","2",#ffbbe0
 " .Policy.Treatment.Nicotine Replacement Therapy","2",#ffbbe0
 " .Policy.Treatment.Medication","1",#ffbbe0
 " .Policy.Treatment.Quitline","1",#ffbbe0
-" .Policy.Regulatory Body"
+" .Policy.Regulatory Body",,#ffbbe0
 " .Policy.Regulatory Body.US Food and Drug Administration (FDA)","2",#ffbbe0
-" .Policy.Marketing"
+" .Policy.Marketing",,#ffbbe0
 " .Policy.Marketing.Advertisement","4",#ffbbe0
 " .Policy.Marketing.Brand","3",#ffbbe0
 " .Policy.Marketing.Denormalization","1",#ffbbe0
 " .Policy.Marketing.Retail Sales","1",#ffbbe0
 " .Policy.Marketing.Social Media","1",#ffbbe0
-" .Policy.Law/Policy/Regulation"
+" .Policy.Law/Policy/Regulation",,#ffbbe0
 " .Policy.Law/Policy/Regulation.Tobacco Control","6",#ffbbe0
 " .Policy.Law/Policy/Regulation.Policy/Regulation","3",#ffbbe0
 " .Policy.Law/Policy/Regulation.Monitoring and Surveillance","1",#ffbbe0
@@ -139,7 +139,7 @@ id,value,color
 " .Policy.Law/Policy/Regulation.Enforcement","1",#ffbbe0
 " .Policy.Law/Policy/Regulation.Cessation Strategies","1",#ffbbe0
 " .Method and Inference"
-" .Method and Inference.Statistics"
+" .Method and Inference.Statistics",,#57db94
 " .Method and Inference.Statistics.Frequency/Count","9",#57db94
 " .Method and Inference.Statistics.Confidence Interval (CI)","9",#57db94
 " .Method and Inference.Statistics.Association","8",#57db94
@@ -147,7 +147,7 @@ id,value,color
 " .Method and Inference.Statistics.Mean/Median","2",#57db94
 " .Method and Inference.Statistics.Probability","2",#57db94
 " .Method and Inference.Statistics.Statistical Significance","1",#57db94
-" .Method and Inference.Methodology"
+" .Method and Inference.Methodology",,#57db94
 " .Method and Inference.Methodology.Survey","18",#57db94
 " .Method and Inference.Methodology.Logistic Regression","10",#57db94
 " .Method and Inference.Methodology.Sample","10",#57db94
@@ -164,13 +164,13 @@ id,value,color
 " .Method and Inference.Methodology.Clinical Trial","1",#57db94
 " .Method and Inference.Methodology.Data Extraction","1",#57db94
 " .Method and Inference.Methodology.Synthesis","1",#57db94
-" .Method and Inference.Data"
+" .Method and Inference.Data",,#57db94
 " .Method and Inference.Data.Population Assessment of Tobacco and Health (PATH) Study","3",#57db94
 " .Method and Inference.Data.Behavioral Risk Factor Surveillance System (BRFSS)","2",#57db94
 " .Method and Inference.Data.National Adult Tobacco Survey (NATS)","2",#57db94
 " .Method and Inference.Data.National Epidemiologic Survey on Alcohol and Related Conditions (NESARC)","1",#57db94
 " .Geographic Locations"
-" .Geographic Locations.Countries/States/Provinces/Cities"
+" .Geographic Locations.Countries/States/Provinces/Cities",,#ff2600
 " .Geographic Locations.Countries/States/Provinces/Cities.United States (US)","12",#ff2600
 " .Geographic Locations.Countries/States/Provinces/Cities.US-State","5",#ff2600
 " .Geographic Locations.Countries/States/Provinces/Cities.US-City","4",#ff2600

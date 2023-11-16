@@ -13,7 +13,7 @@
 
                 text {
                         font-family: "Arial Black", Gadget, sans-serif;
-                        fill: black;
+                        /* fill: black; */
                         font-weight: bold;
                         font-size: 12px
                 }
@@ -61,57 +61,28 @@
 </head>
 
 <body>
-        <svg width="1500" height="3200"></svg>
+        <svg width="1500" height="3500"></svg>
         <script>
                 // main svg
                 var svg = d3.select("svg"),
                         width = +svg.attr("width"),
                         height = +svg.attr("height"),
-                        g = svg.append("g").attr("transform", "translate(20,0)");       // move right 20px.
+                        g = svg.append("g").attr("transform", "translate(20,100)");
 
-                svg.append("text")
-                        .attr("x", 300)
-                        .attr("y", (30))
-                        .attr("text-anchor", "middle")
-                        .style("font", "28px sans-serif")
-                        .style("color", "#aaaaaa")
-                        .text("Frequency of Named Entities in Abstracts");
-
-                svg.append("text")
-                        .attr("x", 45)
-                        .attr("y", (60))
-                        .attr("text-anchor", "left")
-                        .style("font", "14px sans-serif")
-                        .style("fill", "#888888")
-                        .attr("dy", "0em")
-                        .text("The chart below shows the frequency of named entities in the abstracts.");
-                svg.append("text")
-                        .attr("x", 45)
-                        .attr("y", (60))
-                        .attr("text-anchor", "left")
-                        .style("font", "14px sans-serif")
-                        .style("fill", "#888888")
-                        .attr("dy", "1em")
-                        .text("Bars are colored by the major category.");
 
 
                 // x-scale and x-axis
-                var experienceName = ["", "", "", "", "", ""];
-                var formatSkillPoints = function (d) {
-                        return experienceName[d % 6];
-                }
                 var xScale = d3.scaleLinear()
                         .domain([0, 30])
-                        .range([0, 500]);
+                        .range([0, 300]);
 
                 var xAxis = d3.axisTop()
                         .scale(xScale)
-                        .ticks(5)
-                        .tickFormat(formatSkillPoints);
+                        .ticks(5);
 
                 // Setting up a way to handle the data
                 var tree = d3.cluster()                 // This D3 API method setup the Dendrogram datum position.
-                        .size([height, width - 650])    // Total width - bar chart width = Dendrogram chart width
+                        .size([height - 100, width - 600])    // Total width - bar chart width = Dendrogram chart width
                         .separation(function separate(a, b) {
                                 return a.parent == b.parent            // 2 levels tree grouping for category
                                         || a.parent.parent == b.parent
@@ -184,7 +155,9 @@
                                 .style("text-anchor", "middle")
                                 .text(function (d) {
                                         return d.data.id.substring(d.data.id.lastIndexOf(".") + 1);
-                                });
+                                })
+                                .attr("fill", function (d) { return d.data.color })
+                                .call(wrap, 400);
 
                         // Attach axis on top of the first leaf datum.
                         var firstEndNode = g.select(".node--leaf");
@@ -220,21 +193,6 @@
                                 leafG.select("rect")
                                         .attr("stroke", "#4D4D4D")
                                         .attr("stroke-width", "2");
-
-
-                                var ballGMovement = ballG.transition()
-                                        .duration(400)
-                                        .attr("transform", "translate(" + (d.y
-                                                + xScale(d.data.value) + 90) + ","
-                                                + (d.x + 1.5) + ")");
-
-                                ballGMovement.select("circle")
-                                        .style("fill", d.data.color)
-                                        .attr("r", 18);
-
-                                ballGMovement.select("text")
-                                        .delay(300)
-                                        .text(Number(d.data.value).toFixed(1));
                         }
                         function handleMouseOut() {
                                 var leafG = d3.select(this);
@@ -251,7 +209,40 @@
                                 value: +d.value,
                                 color: d.color
                         };
+                };
+
+
+
+                // Function to insert line breaks at space characters for SVG text elements
+                function wrap(text, width) {
+                        text.each(function () {
+                                var text = d3.select(this),
+                                        words = text.text().split(/\s+/).reverse(),
+                                        word,
+                                        line = [],
+                                        lineNumber = 0,
+                                        lineHeight = 1.2, // ems - adjust for spacing
+                                        x = text.attr("x"), // get x attribute of text
+                                        y = text.attr("y"),
+                                        dy = 0, // set initial dy to 0 since we'll calculate it based on line number
+                                        tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", dy + "em");
+
+                                while (word = words.pop()) {
+                                        line.push(word);
+                                        tspan.text(line.join(" "));
+                                        if (tspan.node().getComputedTextLength() > width) {
+                                                line.pop();
+                                                tspan.text(line.join(" "));
+                                                line = [word];
+                                                // Increment line number for new line and adjust dy accordingly
+                                                lineNumber++;
+                                                tspan = text.append("tspan").attr("x", x + 0).attr("y", y)
+                                                        .attr("dy", lineNumber * lineHeight + "em").text(word);
+                                        }
+                                }
+                        });
                 }
+
         </script>
 
 
