@@ -69,7 +69,30 @@
                         height = +svg.attr("height"),
                         g = svg.append("g").attr("transform", "translate(20,100)");
 
+                svg.append("text")
+                        .attr("x", 300)
+                        .attr("y", (30))
+                        .attr("text-anchor", "middle")
+                        .style("font", "28px sans-serif")
+                        .style("color", "#aaaaaa")
+                        .text("Frequency of Named Entities in Abstracts");
 
+                svg.append("text")
+                        .attr("x", 45)
+                        .attr("y", (60))
+                        .attr("text-anchor", "left")
+                        .style("font", "14px sans-serif")
+                        .style("fill", "#888888")
+                        .attr("dy", "0em")
+                        .text("The chart below shows the frequency of named entities in the abstracts.");
+                svg.append("text")
+                        .attr("x", 45)
+                        .attr("y", (60))
+                        .attr("text-anchor", "left")
+                        .style("font", "14px sans-serif")
+                        .style("fill", "#888888")
+                        .attr("dy", "1em")
+                        .text("Bars are colored by the major category.");
 
                 // x-scale and x-axis
                 var xScale = d3.scaleLinear()
