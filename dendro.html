@@ -93,6 +93,22 @@
                         .style("fill", "#888888")
                         .attr("dy", "1em")
                         .text("Bars are colored by the major category.");
+                svg.append("text")
+                        .attr("x", 1010)
+                        .attr("y", (60))
+                        .attr("text-anchor", "left")
+                        .style("font", "16px sans-serif")
+                        .style("font-weight", "bold")
+                        .style("fill", "#000000")
+                        .attr("dy", "1em")
+                        .text("Appearance count");
+
+                // svg.append("text")
+                //         .attr("text-anchor", "end")
+                //         .attr("x", width) // Adjust 'width' to position the label
+                //         .attr("y", margin.top - 10) // Adjust these coordinates to position the label appropriately
+                //         .text("Your X-axis Label"); // Replace with your label text
+
 
                 // x-scale and x-axis
                 var xScale = d3.scaleLinear()
