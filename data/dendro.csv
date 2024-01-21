@@ -30,10 +30,10 @@ id,value,color
 " .Tobacco use behaviors, prevalence, and outcomes.Exposure to tobacco-related or anti-tobacco content, and exposure to secondhand or thirdhand smoking",,#b9db57
 " .Tobacco use behaviors, prevalence, and outcomes.Exposure to tobacco-related or anti-tobacco content, and exposure to secondhand or thirdhand smoking.Exposure","5",#b9db57
 " .Tobacco products"
-" .Tobacco products.Non-combustible tobacco products",,#c957db
-" .Tobacco products.Non-combustible tobacco products.E-cigarette","8",#c957db
-" .Tobacco products.Non-combustible tobacco products.Smokeless tobacco","4",#c957db
-" .Tobacco products.Non-combustible tobacco products.Snus","1",#c957db
+" .Tobacco products.Noncombustible tobacco products",,#c957db
+" .Tobacco products.Noncombustible tobacco products.E-cigarette","8",#c957db
+" .Tobacco products.Noncombustible tobacco products.Smokeless tobacco","4",#c957db
+" .Tobacco products.Noncombustible tobacco products.Snus","1",#c957db
 " .Tobacco products.Combustible tobacco products",,#c957db
 " .Tobacco products.Combustible tobacco products.Cigarette","15",#c957db
 " .Tobacco products.Combustible tobacco products.Tobacco product","7",#c957db
@@ -44,7 +44,7 @@ id,value,color
 " .Tobacco characteristics.Flavor",,#5784db
 " .Tobacco characteristics.Flavor.Alcohol","5",#5784db
 " .Tobacco characteristics.Flavor.Menthol","1",#5784db
-" .Tobacco characteristics.Flavor.Non-menthol","1",#5784db
+" .Tobacco characteristics.Flavor.Nonmenthol","1",#5784db
 " .Tobacco characteristics.Flavor.Flavor","1",#5784db
 " .Tobacco characteristics.Chemical",,#5784db
 " .Tobacco characteristics.Chemical.Nicotine","7",#5784db
